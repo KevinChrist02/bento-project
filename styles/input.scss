@@ -1,3 +1,40 @@
 body {
   background: black;
 }
+
+.box1{
+  background-color: #ADFF02;
+  grid-area: 1 / 1;
+}
+
+.box2{
+  background-color: #FF006D;
+  grid-area: 1 / 2 / 1 / span 2;
+}
+.box3{
+  background-color: #01BEFE;
+  grid-area: 1 / 4;
+}
+.box4{
+  background-color: #FF7D00;
+  grid-area: 2 / 1 / 4;
+}
+.box5{
+  background-color: white;
+  grid-area: 2/ 2 / 2 / 3;
+}
+.box6{
+  background-color: #FFDD00;
+  grid-area: 2 / 4 / span 2;
+}
+
+.container{
+  background-color: white;
+  height: 60vh;
+  width: 120vh;
+  margin: auto;
+  
+  display: grid;
+  grid-template: repeat(4, 25%);
+}
+
