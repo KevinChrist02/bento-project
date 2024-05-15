@@ -1,44 +1,64 @@
 body {
   background: black;
+  margin: 20vh auto;
+  color: white;
 }
 
 .box1 {
-  background-color: #ADFF02;
+  background-color: #adff02;
   grid-area: 1/1;
 }
 
 .box2 {
-  background-color: #FF006D;
+  background-color: #ff006d;
   grid-area: 1/2/1/span 2;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 {
-  background-color: #01BEFE;
+  background-color: #01befe;
   grid-area: 1/4;
 }
 
 .box4 {
-  background-color: #FF7D00;
+  background-color: #ff7d00;
   grid-area: 2/1/4;
+  font-family: "Oswald";
+  font-weight: 500;
 }
 
 .box5 {
   background-color: white;
-  grid-area: 2/2/2/3;
+  grid-area: 2/2/span 2/span 2;
 }
 
 .box6 {
-  background-color: #FFDD00;
+  background-color: #ffdd00;
   grid-area: 2/4/span 2;
 }
 
 .container {
-  background-color: white;
   height: 60vh;
   width: 120vh;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
   display: grid;
   grid-template: repeat(4, 25%);
+  gap: 12px;
+}
+
+div {
+  border-radius: 12px;
+}
+div img {
+  border-radius: 60px;
+  padding: 4px;
 }
 
 /*# sourceMappingURL=output.css.map */

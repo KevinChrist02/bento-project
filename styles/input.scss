@@ -1,40 +1,69 @@
+$box1-color: #adff02;
+$box2-color: #ff006d;
+$box3-color: #01befe;
+$box4-color: #ff7d00;
+$box5-color: white;
+$box6-color: #ffdd00;
+$primary-color: white;
+$primary-font: 'Oswald';
+
 body {
   background: black;
+  margin: 20vh auto;
+  color: $primary-color;
 }
 
-.box1{
-  background-color: #ADFF02;
+.box1 {
+  background-color: $box1-color;
   grid-area: 1 / 1;
 }
 
-.box2{
-  background-color: #FF006D;
+.box2 {
+  background-color: $box2-color;
   grid-area: 1 / 2 / 1 / span 2;
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.box3{
-  background-color: #01BEFE;
+.box3 {
+  background-color: $box3-color;
   grid-area: 1 / 4;
 }
-.box4{
-  background-color: #FF7D00;
+.box4 {
+  background-color: $box4-color;
   grid-area: 2 / 1 / 4;
+  font-family: $primary-font;
+  font-weight: 500;
 }
-.box5{
-  background-color: white;
-  grid-area: 2/ 2 / 2 / 3;
+.box5 {
+  background-color: $box5-color;
+  grid-area: 2/ 2 / span 2 / span 2;
 }
-.box6{
-  background-color: #FFDD00;
+.box6 {
+  background-color: $box6-color;
   grid-area: 2 / 4 / span 2;
 }
 
-.container{
-  background-color: white;
+.container {
   height: 60vh;
   width: 120vh;
-  margin: auto;
-  
+  margin: 0 auto;
+  text-align: center;
+
   display: grid;
   grid-template: repeat(4, 25%);
+
+  gap: 12px;
 }
 
+div {
+  border-radius: 12px;
+  img {
+    border-radius: 60px;
+    padding: 4px;
+  }
+}
