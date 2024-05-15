@@ -6,4 +6,8 @@ I just want to display some informations about me and my Projects
 
 ## Mockup with Figma
 
-![Mockup](./sc_bento.png)
+![Mockup](./assets/sc_bento.png)
+
+## Ressources
++ Svg's: [icons8](https://icons8.com/)
++ Colorpallet: [coolors](https://coolors.co/)
